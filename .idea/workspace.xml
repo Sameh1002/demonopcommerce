@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="First!" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Use WebDriverManager and remove the chrome driver. Write sample code to test.">
+      <change afterPath="$PROJECT_DIR$/screenshots/Webdriver manager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_002.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_003.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_005.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_006.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_007.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_009.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_010.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_011.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SC_012.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_07_2022_02_27_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_07_2022_02_27_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/.gitkeep" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,15 +89,15 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Feature: cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_001">
+    <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/cucumber.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: cucumber" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_001" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +109,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: guest user could register with valid data successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
+      <option name="GLUE" value="org.example.stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demonopcommerce" />
+      <option name="NAME_FILTER" value="^guest user could register with valid data successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could register with valid data successfully$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: guest user could register with valid data successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: cucumber" />
+        <item itemvalue="Cucumber Java.Feature: SC_001" />
+        <item itemvalue="Cucumber Java.Scenario: guest user could register with valid data successfully" />
         <item itemvalue="Cucumber Java.Feature: cucumber" />
         <item itemvalue="Cucumber Java.Feature: cucumber" />
       </list>
@@ -161,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657628970740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First!">
+      <created>1657629127022</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657629127022</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +268,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="First!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First!" />
+    <MESSAGE value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
