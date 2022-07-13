@@ -4,9 +4,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P_001;
 import org.testng.asserts.SoftAssert;
 
+import org.example.pages.P_001;
 
 public class SC_001 {
     P_001 registration = new P_001();
@@ -33,6 +33,9 @@ public class SC_001 {
 
     @And("User select date of birth")
     public void userSelectDateOfBirth() {
+        registration.birthDay().click();
+        registration.birthMonth().click();
+        registration.birthYear().click();
 
     }
 
