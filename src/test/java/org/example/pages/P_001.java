@@ -10,12 +10,13 @@ public class P_001 {
     }
 
     public WebElement selectGender() {
-       return Hooks.driver.findElement(By.id("gender-male"));
+        return Hooks.driver.findElement(By.id("gender-male"));
     }
 
     public WebElement enterFirstName() {
         return Hooks.driver.findElement(By.id("FirstName"));
     }
+
     public WebElement enterLastName() {
         return Hooks.driver.findElement(By.id("LastName"));
     }
@@ -35,8 +36,14 @@ public class P_001 {
     public WebElement register() {
         return Hooks.driver.findElement(By.id("register-button"));
     }
-    public String registrationSuccess() {
+
+    public String registrationMessage() {
         return Hooks.driver.findElement(By.cssSelector(".result")).getText();
     }
+
+    public String registrationMessageFont() {
+        return Hooks.driver.findElement(By.cssSelector(".result")).getCssValue("color");
+    }
+
 }
 

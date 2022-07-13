@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Use WebDriverManager and remove the chrome driver. Write sample code to test.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_07_2022_02_27_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/11.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657635454275</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8">
+      <created>1657719516851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657719516851</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8">
+      <created>1657719567255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657719567255</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +302,8 @@
     </ignored-roots>
     <MESSAGE value="First!" />
     <MESSAGE value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
+    <MESSAGE value="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

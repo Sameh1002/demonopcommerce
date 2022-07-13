@@ -4,12 +4,13 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
 import org.example.pages.P_001;
+import org.testng.asserts.SoftAssert;
 
 
 public class SC_001 {
-    P_001 registration =new P_001();
+    P_001 registration = new P_001();
+
     @Given("User navigates the registration page")
     public void userNavigatesTheRegistrationPage() {
         registration.navigateToRegistration().click();
@@ -58,9 +59,13 @@ public class SC_001 {
 
     @Then("User creates a new account")
     public void userCreatesANewAccount() {
+        SoftAssert soft = new SoftAssert();
         String expectedResult = "Your registration completed";
-        String actualResult = registration.registrationSuccess();
-        Assert.assertTrue(actualResult.contains(expectedResult));
+        String actualResult = registration.registrationMessage();
+        String expectedColor = "rgba(76, 177, 124, 1)";
+        String actualColor = registration.registrationMessageFont();
+        soft.assertTrue(actualResult.contains(expectedResult));
+        soft.assertEquals(actualColor, expectedColor);
     }
 
 
