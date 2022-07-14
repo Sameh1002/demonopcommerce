@@ -3,8 +3,8 @@ package org.example.stepDefs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import org.example.pages.P_002;
+import org.openqa.selenium.support.Color;
 import org.testng.asserts.SoftAssert;
 
 
@@ -60,5 +60,15 @@ public class SC_002 {
 
     @Then("User can't login")
     public void userCanTLogin() {
+        SoftAssert soft = new SoftAssert();
+        String expectedResult = "Login was unsuccessful";
+        String actualResult = login.checkErrorMessage().getText();
+
+        String expectedColor = "#e4434b";
+        String actualColor = Color.fromString(login.errorMessageFont()).asHex();
+
+        soft.assertTrue(actualResult.contains(expectedResult));
+        soft.assertEquals(actualColor, expectedColor);
+        soft.assertAll();
     }
 }

@@ -28,4 +28,13 @@ public class P_002 {
     public String url() {
         return Hooks.driver.getCurrentUrl();
     }
+
+    public WebElement checkErrorMessage() {
+        return Hooks.driver.findElement(By.cssSelector(".message-error"));
+    }
+
+    public String errorMessageFont() {
+        return Hooks.driver.findElement(By.cssSelector(".message-error")).getCssValue("color");
+
+    }
 }

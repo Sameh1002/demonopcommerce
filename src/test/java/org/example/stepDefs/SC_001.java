@@ -69,6 +69,7 @@ public class SC_001 {
         String actualColor = registration.registrationMessageFont();
         soft.assertTrue(actualResult.contains(expectedResult));
         soft.assertEquals(actualColor, expectedColor);
+        soft.assertAll();
     }
 
 
