@@ -12,11 +12,6 @@ import java.util.List;
 public class SC_003 {
 
     P_003 currency = new P_003();
-//    @When("User selects Euro from dropdown list")
-//    public void userSelectsEuroFromDropdownList() {
-//        Select dropdown = new Select(currency.changeCurrency());
-//        dropdown.selectByVisibleText(currency.currencyName());
-//    }
 
     @When("User selects currency {string} from dropdown list")
     public void userSelectsCurrencyWithSymbolFromDropdownList(String currencyName) {

@@ -13,13 +13,6 @@ public class P_003 {
         return Hooks.driver.findElement(By.id("customerCurrency"));
     }
 
-//    public String currencyName() {
-//        return "Euro";
-//    }
-//    public String currencySymbol() {
-//        return "€";
-//    }
-
     public List<WebElement> checkCurrencySignOnFrontpage() {
         return Hooks.driver.findElements(By.cssSelector(".product-item"));
     }
