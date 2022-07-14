@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Change currency part 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Removing old code">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_003.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_003.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SC_001">
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_003">
     <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
@@ -191,10 +189,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: SC_001" />
         <item itemvalue="Cucumber Java.Feature: SC_003" />
-        <item itemvalue="Cucumber Java.Feature: SC_002" />
         <item itemvalue="Cucumber Java.Scenario: User can switch between US and Euro" />
+        <item itemvalue="Cucumber Java.Feature: SC_001" />
+        <item itemvalue="Cucumber Java.Feature: SC_002" />
         <item itemvalue="Cucumber Java.Scenario: User login with an invalid email and a password" />
       </list>
     </recent_temporary>
@@ -376,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657838009727</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixing the registration testing">
+      <created>1657839638836</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657839638836</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Removing old code">
+      <created>1657839674383</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657839674383</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +446,9 @@
     <MESSAGE value="Change currency" />
     <MESSAGE value="Change currency part 2" />
     <MESSAGE value="Change currency part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change currency part 3" />
+    <MESSAGE value="Fixing the registration testing" />
+    <MESSAGE value="Removing old code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing old code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

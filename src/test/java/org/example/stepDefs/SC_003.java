@@ -12,17 +12,23 @@ import java.util.List;
 public class SC_003 {
 
     P_003 currency = new P_003();
-    @When("User selects Euro from dropdown list")
-    public void userSelectsEuroFromDropdownList() {
+//    @When("User selects Euro from dropdown list")
+//    public void userSelectsEuroFromDropdownList() {
+//        Select dropdown = new Select(currency.changeCurrency());
+//        dropdown.selectByVisibleText(currency.currencyName());
+//    }
+
+    @When("User selects currency {string} from dropdown list")
+    public void userSelectsCurrencyWithSymbolFromDropdownList(String currencyName) {
         Select dropdown = new Select(currency.changeCurrency());
-        dropdown.selectByVisibleText(currency.currencyName());
+        dropdown.selectByVisibleText(currencyName);
     }
 
-    @Then("Prices are changed from US Dollar to Euro")
-    public void pricesAreChangedFromUSDollarToEuro() {
+    @Then("Prices changes with symbol {string}")
+    public void pricesAreChangedFromUSDollarToEuro(String symbol) {
         List <WebElement> actualResult = currency.checkCurrencySignOnFrontpage();
         for ( WebElement elem : actualResult ) {
-            Assert.assertTrue(elem.getText().contains(currency.currencySymbol()));
+            Assert.assertTrue(elem.getText().contains(symbol));
         }
     }
 }

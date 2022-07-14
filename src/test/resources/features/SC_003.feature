@@ -3,5 +3,5 @@
 Feature: Change currency
 
   Scenario: User can switch between US and Euro
-    When User selects Euro from dropdown list
-    Then Prices are changed from US Dollar to Euro
+    When User selects currency "Euro" from dropdown list
+    Then Prices changes with symbol "€"
