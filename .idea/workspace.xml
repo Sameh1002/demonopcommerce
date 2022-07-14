@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Change currency part 3" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Change currency part 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +73,7 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SC_003">
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_001">
     <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
@@ -186,9 +191,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: SC_001" />
         <item itemvalue="Cucumber Java.Feature: SC_003" />
         <item itemvalue="Cucumber Java.Feature: SC_002" />
-        <item itemvalue="Cucumber Java.Feature: SC_001" />
         <item itemvalue="Cucumber Java.Scenario: User can switch between US and Euro" />
         <item itemvalue="Cucumber Java.Scenario: User login with an invalid email and a password" />
       </list>
@@ -364,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657819279438</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Change currency part 3">
+      <created>1657838009727</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657838009727</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

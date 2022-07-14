@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
 import org.example.pages.P_001;
@@ -31,12 +32,31 @@ public class SC_001 {
         registration.enterLastName().sendKeys(lastName);
     }
 
-    @And("User select date of birth")
-    public void userSelectDateOfBirth() {
-        registration.birthDay().click();
-        registration.birthMonth().click();
-        registration.birthYear().click();
+//    @And("User select date of birth")
+//    public void userSelectDateOfBirth() {
+//        registration.birthDay().click();
+//        registration.birthMonth().click();
+//        registration.birthYear().click();
+//
+//    }
 
+    @And("user select day of birth {string}")
+    public void userSelectDayOfBirth(String dayOfBirth) {
+        Select dropdown = new Select(registration.selectDay());
+        System.out.println(dropdown);
+        dropdown.selectByVisibleText(dayOfBirth);
+    }
+
+    @And("user select month of birth {string}")
+    public void userSelectMonthOfBirth(String monthOfBirth) {
+        Select dropdown = new Select(registration.selectMonth());
+        dropdown.selectByVisibleText(monthOfBirth);
+    }
+
+    @And("user select year of birth {string}")
+    public void userSelectYearOfBirth(String yearOfBirth) {
+        Select dropdown = new Select(registration.selectYear());
+        dropdown.selectByVisibleText(yearOfBirth);
     }
 
     @And("User enter a valid email address {string}")
@@ -71,6 +91,7 @@ public class SC_001 {
         soft.assertEquals(actualColor, expectedColor);
         soft.assertAll();
     }
+
 
 
 }

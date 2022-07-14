@@ -7,7 +7,10 @@ Feature: User registration
     When User select gender
     And User enter first name "Paul"
     And User enter last name "Smith"
-    And User select date of birth
+#    And User select date of birth
+    And user select day of birth "20"
+    And user select month of birth "October"
+    And user select year of birth "1999"
     And User enter a valid email address "8@example.org"
     And User enter a valid password "P@ssw0rd"
     And User confirm the password "P@ssw0rd"
