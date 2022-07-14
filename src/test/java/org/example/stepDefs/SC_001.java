@@ -32,13 +32,6 @@ public class SC_001 {
         registration.enterLastName().sendKeys(lastName);
     }
 
-//    @And("User select date of birth")
-//    public void userSelectDateOfBirth() {
-//        registration.birthDay().click();
-//        registration.birthMonth().click();
-//        registration.birthYear().click();
-//
-//    }
 
     @And("user select day of birth {string}")
     public void userSelectDayOfBirth(String dayOfBirth) {

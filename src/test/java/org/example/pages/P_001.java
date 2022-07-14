@@ -21,18 +21,6 @@ public class P_001 {
         return Hooks.driver.findElement(By.id("LastName"));
     }
 
-//    public WebElement birthDay() {
-//        return Hooks.driver.findElement(By.cssSelector("select:nth-child(1) > option:nth-child(15)"));
-//    }
-//
-//    public WebElement birthMonth() {
-//        return Hooks.driver.findElement(By.cssSelector("select:nth-child(2) > option:nth-child(10)"));
-//    }
-//
-//    public WebElement birthYear() {
-//        return Hooks.driver.findElement(By.cssSelector("select:nth-child(3) > option:nth-child(16)"));
-//    }
-
         public WebElement selectDay() {
         return Hooks.driver.findElement(By.name("DateOfBirthDay"));
     }
