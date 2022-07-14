@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Add font color check and some formatting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Add test runner">
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SC_001">
+  <component name="RunManager" selected="TestNG.runners">
     <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
@@ -145,8 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runners" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demonopcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testRunner.runners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.runners" />
         <item itemvalue="Cucumber Java.Feature: SC_001" />
         <item itemvalue="Cucumber Java.Scenario: User register with a valid email and password" />
         <item itemvalue="Cucumber Java.Scenario: guest user could register with valid data successfully" />
@@ -260,7 +275,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657722040347</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add date select (wip)">
+      <created>1657723160498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657723160498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add date select (wip)">
+      <created>1657723222617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657723222617</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add test runner">
+      <created>1657802188802</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657802188803</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +347,9 @@
     <MESSAGE value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
     <MESSAGE value="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8" />
     <MESSAGE value="Add font color check and some formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add font color check and some formatting" />
+    <MESSAGE value="Add date select (wip)" />
+    <MESSAGE value="Add test runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test runner" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
