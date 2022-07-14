@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Change currency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_003.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Change currency part 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,9 +187,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: SC_003" />
-        <item itemvalue="Cucumber Java.Scenario: User can switch between US and Euro" />
-        <item itemvalue="Cucumber Java.Feature: SC_001" />
         <item itemvalue="Cucumber Java.Feature: SC_002" />
+        <item itemvalue="Cucumber Java.Feature: SC_001" />
+        <item itemvalue="Cucumber Java.Scenario: User can switch between US and Euro" />
         <item itemvalue="Cucumber Java.Scenario: User login with an invalid email and a password" />
       </list>
     </recent_temporary>
@@ -354,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657813448458</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Change currency part 2">
+      <created>1657814030300</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657814030300</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Change currency part 3">
+      <created>1657819279438</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657819279438</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +420,9 @@
     <MESSAGE value="Check successful login" />
     <MESSAGE value="Check unsuccessful login" />
     <MESSAGE value="Change currency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change currency" />
+    <MESSAGE value="Change currency part 2" />
+    <MESSAGE value="Change currency part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change currency part 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

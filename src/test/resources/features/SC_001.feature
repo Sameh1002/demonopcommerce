@@ -8,7 +8,7 @@ Feature: User registration
     And User enter first name "Paul"
     And User enter last name "Smith"
     And User select date of birth
-    And User enter a valid email address "6@example.org"
+    And User enter a valid email address "8@example.org"
     And User enter a valid password "P@ssw0rd"
     And User confirm the password "P@ssw0rd"
     And User click the REGISTER button
