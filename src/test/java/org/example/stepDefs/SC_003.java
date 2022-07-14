@@ -10,8 +10,8 @@ public class SC_003 {
     P_003 currency = new P_003();
     @When("User selects Euro from dropdown list")
     public void userSelectsEuroFromDropdownList() {
-        Select dropdown = new Select(currency.changeToEuro());
-        dropdown.selectByVisibleText("Euro");
+        Select dropdown = new Select(currency.changeCurrency());
+        dropdown.selectByVisibleText(currency.chooseCurrency());
     }
 
     @Then("Prices are changed from US Dollar to Euro")

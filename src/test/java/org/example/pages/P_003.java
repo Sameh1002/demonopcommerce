@@ -7,7 +7,11 @@ import org.openqa.selenium.WebElement;
 public class P_003 {
 
 
-    public WebElement changeToEuro() {
+    public WebElement changeCurrency() {
         return Hooks.driver.findElement(By.id("customerCurrency"));
+    }
+
+    public String chooseCurrency() {
+        return "Euro";
     }
 }
