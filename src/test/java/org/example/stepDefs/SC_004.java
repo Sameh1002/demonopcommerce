@@ -54,6 +54,8 @@ public class SC_004 {
     public void verifyTheProductPageContainsTheSKUSearchTerm(String searchResult) {
         System.out.println(searchResult);
         System.out.println(search.sKUProductPage().getText() );
-        Assert.assertEquals(searchResult,search.sKUProductPage().getText() );
+//        Assert.assertEquals(searchResult,search.sKUProductPage().getText() );
+        Assert.assertTrue(search.sKUProductPage().getText().contains(searchResult));
+
     }
 }

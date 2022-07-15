@@ -28,7 +28,7 @@ public class P_004 {
     }
 
     public WebElement sKUProductPage() {
-        return Hooks.driver.findElement(By.className("value"));
+        return Hooks.driver.findElement(By.className("sku"));
     }
 
 

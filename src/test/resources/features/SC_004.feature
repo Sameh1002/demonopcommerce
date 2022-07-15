@@ -8,10 +8,10 @@ Feature: Searching
     And Count number of search results
     And Verify each result contains the search term <searchTerm>
     Examples:
-      | searchTerm |
+      | searchTerm  |
       | book        |
-#      | laptop      |
-#      | nike   |
+      | laptop      |
+      | nike        |
 
   Scenario Outline: User could search for product using sku
     When User enter product name or SKU <searchTerm>
@@ -20,5 +20,5 @@ Feature: Searching
     Examples:
       | searchTerm |
       | SCI_FAITH |
-#      | APPLE_CAM |
-#      | SF_PRO_11 |
+      | APPLE_CAM |
+      | SF_PRO_11 |

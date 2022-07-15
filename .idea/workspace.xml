@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Test search">
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Fixing search">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +77,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: User could search for product using sku">
-    <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: SC_003" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_003.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SC_001" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_003" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SC_003" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: SC_004" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_003.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SC_003" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_004" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -193,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: User could search for product using sku" />
+        <item itemvalue="Cucumber Java.Feature: SC_004" />
         <item itemvalue="Cucumber Java.Scenario: User could search using product name" />
         <item itemvalue="Cucumber Java.Feature: SC_003" />
         <item itemvalue="Cucumber Java.Scenario: User can switch between US and Euro" />
-        <item itemvalue="Cucumber Java.Feature: SC_001" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657896188477</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixing search">
+      <created>1657896538214</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1657896538214</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +484,8 @@
     <MESSAGE value="Improving currency change test" />
     <MESSAGE value="Removing old code" />
     <MESSAGE value="Test search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test search" />
+    <MESSAGE value="Fixing search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
