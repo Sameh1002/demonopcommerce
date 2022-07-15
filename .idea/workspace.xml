@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Removing old code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_004.feature" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Test search">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_004.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657840294674</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Test search">
+      <created>1657896188477</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1657896188477</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +473,8 @@
     <MESSAGE value="Fixing the registration testing" />
     <MESSAGE value="Improving currency change test" />
     <MESSAGE value="Removing old code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing old code" />
+    <MESSAGE value="Test search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

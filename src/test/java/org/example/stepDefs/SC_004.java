@@ -43,8 +43,6 @@ public class SC_004 {
         for ( WebElement result : searchResultsList ) {
             Assert.assertTrue(result.getText().toLowerCase().contains(searchTerm.toLowerCase()));
         }
-
-
     }
 
     @Then("Go to the product page")
@@ -58,5 +56,4 @@ public class SC_004 {
         System.out.println(search.sKUProductPage().getText() );
         Assert.assertEquals(searchResult,search.sKUProductPage().getText() );
     }
-
 }
