@@ -4,10 +4,10 @@ Feature: User login
 
   Scenario: User login with a valid email and  a valid password
     When User navigates the login page
-    And User enters a valid email "8@example.org"
+    And User enters a valid email "9@example.org"
     And User enters a valid password "P@ssw0rd"
     And User click the LOGIN button
-    Then User logins successfully
+    Then User logins successfully and the page URL is "https://demo.nopcommerce.com/"
 
   Scenario: User login with an invalid email and a password
     When User navigates the login page

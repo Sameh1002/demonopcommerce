@@ -43,13 +43,12 @@ public class SC_002 {
         login.enterMail().sendKeys(email);
     }
 
-    @Then("User logins successfully")
-    public void userLoginsSuccessfully() {
+    @Then("User logins successfully and the page URL is {string}")
+    public void userLoginsSuccessfully(String expectedURL) {
         SoftAssert soft = new SoftAssert();
         String expectedResult = "My account";
         String actualResult = login.checkMyaccount().getText();
 
-        String expectedURL = "https://demo.nopcommerce.com/";
         String actualURL = login.url();
 
         soft.assertEquals(actualResult, expectedResult);
