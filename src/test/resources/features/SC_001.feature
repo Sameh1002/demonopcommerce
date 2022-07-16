@@ -14,4 +14,4 @@ Feature: User registration
     And User enter a valid password "P@ssw0rd"
     And User confirm the password "P@ssw0rd"
     And User click the REGISTER button
-    Then User creates a new account
+    Then User creates a new account the message "Your registration completed" is displayed with color "rgba(76, 177, 124, 1)"

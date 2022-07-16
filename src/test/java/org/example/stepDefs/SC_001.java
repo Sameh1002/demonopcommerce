@@ -73,18 +73,14 @@ public class SC_001 {
         registration.register().click();
     }
 
-    @Then("User creates a new account")
-    public void userCreatesANewAccount() {
+
+    @Then("User creates a new account the message {string} is displayed with color {string}")
+    public void userCreatesANewAccountTheMessageIsDisplayedWithColor(String expectedResult, String expectedColor) {
         SoftAssert soft = new SoftAssert();
-        String expectedResult = "Your registration completed";
         String actualResult = registration.registrationMessage();
-        String expectedColor = "rgba(76, 177, 124, 1)";
         String actualColor = registration.registrationMessageFont();
         soft.assertTrue(actualResult.contains(expectedResult));
         soft.assertEquals(actualColor, expectedColor);
         soft.assertAll();
     }
-
-
-
 }
