@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Remove unneeded files">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Implement wishlist test wip">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SC_7" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,16 +76,16 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SC_001">
-    <configuration name="Feature: SC_001" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_008">
+    <configuration name="Feature: SC_008" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_001.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SC_001" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_008" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -96,15 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SC_006" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add item to wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_006.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="NAME_FILTER" value="^Add item to wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add item to wishlist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SC_006" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add item to wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +120,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SC_007" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check the wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_007.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="NAME_FILTER" value="^Check the wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check the wishlist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SC_007" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check the wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -138,16 +142,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User click on sliders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Item Added to wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_006.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
-      <option name="NAME_FILTER" value="^User click on sliders$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User click on sliders$&quot;" />
+      <option name="NAME_FILTER" value="^Item Added to wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Item Added to wishlist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User click on sliders" />
+      <option name="SUGGESTED_NAME" value="Scenario: Item Added to wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -160,16 +164,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User want to open NopCommerce Facebook" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Remove item from wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_007.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
       <option name="GLUE" value="org.example.stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="demonopcommerce" />
-      <option name="NAME_FILTER" value="^User want to open NopCommerce Facebook$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User want to open NopCommerce Facebook$&quot;" />
+      <option name="NAME_FILTER" value="^Remove item from wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Remove item from wishlist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User want to open NopCommerce Facebook" />
+      <option name="SUGGESTED_NAME" value="Scenario: Remove item from wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -192,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: SC_001" />
-        <item itemvalue="Cucumber Java.Feature: SC_007" />
-        <item itemvalue="Cucumber Java.Scenario: User want to open NopCommerce Facebook" />
-        <item itemvalue="Cucumber Java.Feature: SC_006" />
-        <item itemvalue="Cucumber Java.Scenario: User click on sliders" />
+        <item itemvalue="Cucumber Java.Feature: SC_008" />
+        <item itemvalue="Cucumber Java.Scenario: Check the wishlist" />
+        <item itemvalue="Cucumber Java.Scenario: Remove item from wishlist" />
+        <item itemvalue="Cucumber Java.Scenario: Item Added to wishlist" />
+        <item itemvalue="Cucumber Java.Scenario: Add item to wishlist" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657976800178</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Improve scenario 1">
+      <created>1657981810209</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657981810209</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +489,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="SC_7" />
+                        <option value="SC_008" />
                       </list>
                     </value>
                   </entry>
@@ -514,7 +525,9 @@
     <MESSAGE value="Testing the sliders" />
     <MESSAGE value="Remove uneeded files" />
     <MESSAGE value="Remove unneeded files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unneeded files" />
+    <MESSAGE value="Improve scenario 1" />
+    <MESSAGE value="Implement wishlist test wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement wishlist test wip" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
