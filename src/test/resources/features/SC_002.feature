@@ -14,5 +14,5 @@ Feature: User login
     And User enters an invalid email "wrongmail@example.com"
     And User enters an invalid password "WrongPassword"
     And User click the LOGIN button
-    Then User can't login
+    Then User can't login with message "Login was unsuccessful" in color "#e4434b"
 

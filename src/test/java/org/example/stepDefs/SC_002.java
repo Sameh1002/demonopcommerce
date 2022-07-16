@@ -70,4 +70,14 @@ public class SC_002 {
         soft.assertEquals(actualColor, expectedColor);
         soft.assertAll();
     }
+
+    @Then("User can't login with message {string} in color {string}")
+    public void userCanTLoginWithMessageInColor(String expectedResult, String expectedColor) {
+        SoftAssert soft = new SoftAssert();
+        String actualResult = login.checkErrorMessage().getText();
+        String actualColor = Color.fromString(login.errorMessageFont()).asHex();
+        soft.assertTrue(actualResult.contains(expectedResult));
+        soft.assertEquals(actualColor, expectedColor);
+        soft.assertAll();
+    }
 }
