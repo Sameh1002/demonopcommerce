@@ -21,6 +21,7 @@ public class P_002 {
     public WebElement loginButton() {
         return Hooks.driver.findElement(By.cssSelector(".login-button"));
     }
+
     public WebElement checkMyaccount() {
         return Hooks.driver.findElement(By.cssSelector(".ico-account"));
     }
