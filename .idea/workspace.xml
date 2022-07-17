@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Implement wishlist test wip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Reformat SC7">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_008.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sam/IdeaProjects/demonopcommerce/src/test/java/org/example/stepDefs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Sam/IdeaProjects/demonopcommerce/src/test/java/org/example/stepDefs",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sam\IdeaProjects\demonopcommerce\src\test\resources\features" />
@@ -74,7 +75,7 @@
       <recent name="org.example.stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Check the wishlist">
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_008">
     <configuration name="Feature: SC_008" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SC_008.feature" />
@@ -194,9 +195,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: SC_008" />
         <item itemvalue="Cucumber Java.Scenario: Check the wishlist" />
         <item itemvalue="Cucumber Java.Scenario: User login with an invalid email and a password" />
-        <item itemvalue="Cucumber Java.Feature: SC_008" />
         <item itemvalue="Cucumber Java.Scenario: Remove item from wishlist" />
         <item itemvalue="Cucumber Java.Scenario: Item Added to wishlist" />
       </list>
@@ -456,7 +457,70 @@
       <option name="project" value="LOCAL" />
       <updated>1657981810209</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Reformat SC1">
+      <created>1658066586400</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066586400</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Reformat SC2">
+      <created>1658066687005</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066687005</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Reformat SC3">
+      <created>1658066755756</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066755756</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Reformat SC4">
+      <created>1658066871129</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066871129</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Reformat SC4">
+      <created>1658066925588</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066925588</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Reformat SC4">
+      <created>1658066933822</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066933822</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Reformat SC5">
+      <created>1658066943009</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066943009</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Reformat SC6">
+      <created>1658066999838</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1658066999838</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Reformat SC7">
+      <created>1658067056100</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1658067056100</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,10 +567,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="First!" />
-    <MESSAGE value="Use WebDriverManager and remove the chrome driver. Write sample code to test." />
-    <MESSAGE value="Implemented tests for the registration&#10;Downgrade Cucumber and TestNG to version 7.3.4 because Java 8" />
-    <MESSAGE value="Add font color check and some formatting" />
     <MESSAGE value="Add date select (wip)" />
     <MESSAGE value="Add test runner" />
     <MESSAGE value="Check successful login" />
@@ -525,7 +585,14 @@
     <MESSAGE value="Remove unneeded files" />
     <MESSAGE value="Improve scenario 1" />
     <MESSAGE value="Implement wishlist test wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement wishlist test wip" />
+    <MESSAGE value="Reformat SC1" />
+    <MESSAGE value="Reformat SC2" />
+    <MESSAGE value="Reformat SC3" />
+    <MESSAGE value="Reformat SC4" />
+    <MESSAGE value="Reformat SC5" />
+    <MESSAGE value="Reformat SC6" />
+    <MESSAGE value="Reformat SC7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat SC7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -10,11 +10,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
+
 import java.time.Duration;
 
 
 public class SC_008 {
     P_008 wishlist = new P_008();
+
     @Given("User add an item to wishlist by clicking the heart symbol")
     public void userAddAnItemToWishlistByClickingTheHeartSymbol() {
         wishlist.addItemtoWishlist().click();
@@ -25,31 +27,21 @@ public class SC_008 {
         SoftAssert soft = new SoftAssert();
         String actualMessage = wishlist.getMessage().getText();
         String actualColor = wishlist.getMessageColor();
-
-        System.out.println(actualMessage.toLowerCase());
-        System.out.println(expectedMessage.toLowerCase());
-        System.out.println(actualColor);
-        System.out.println(expectedColor);
-        soft.assertEquals(actualMessage.toLowerCase(),expectedMessage.toLowerCase());
+        soft.assertEquals(actualMessage.toLowerCase(), expectedMessage.toLowerCase());
         soft.assertEquals(actualColor, expectedColor);
         soft.assertAll();
-
     }
 
     @When("User waits after adding the item to his wishlist")
-    public void userWaitsAfterAddingTheItemToHisWishlist()  {
-
-        WebDriverWait wait = new WebDriverWait(Hooks.driver,Duration.ofSeconds(10));
-
+    public void userWaitsAfterAddingTheItemToHisWishlist() {
+        WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
 
         //waiting for the success message to appear
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("bar-notification")));
 
         //waiting for the success message to disappear
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("bar-notification")));
-
     }
-
 
     @And("User navigates to his wishlist")
     public void userNavigatesToHisWishlist() {
@@ -59,7 +51,6 @@ public class SC_008 {
     @Then("The quantity value is bigger than 0")
     public void theQuantityValueIsBiggerThan() {
         String value = wishlist.getQuantity().getAttribute("value");
-        System.out.println(value);
-        Assert.assertNotSame (value, "0" );
+        Assert.assertNotSame(value, "0");
     }
 }
