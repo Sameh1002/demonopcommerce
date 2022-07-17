@@ -21,8 +21,8 @@ public class SC_003 {
 
     @Then("Prices changes with symbol {string}")
     public void pricesAreChangedFromUSDollarToEuro(String symbol) {
-        List <WebElement> actualResult = currency.checkCurrencySignOnFrontpage();
-        for ( WebElement elem : actualResult ) {
+        List<WebElement> actualResult = currency.checkCurrencySignOnFrontpage();
+        for (WebElement elem : actualResult) {
             Assert.assertTrue(elem.getText().contains(symbol));
         }
     }
