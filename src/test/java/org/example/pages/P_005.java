@@ -18,4 +18,8 @@ public class P_005 {
     public WebElement goToSubCategory(String subcat ) {
         return Hooks.driver.findElement(By.linkText(subcat));
     }
+    public WebElement getTextOfPageTittle() {
+        return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div[3]/div/div[1]/h1"));
+    }
+
 }

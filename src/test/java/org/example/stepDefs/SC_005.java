@@ -7,6 +7,7 @@ import org.example.pages.P_005;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,6 +17,7 @@ import java.util.Random;
 public class SC_005 {
 
     P_005 hover = new P_005();
+    String randomSubCategory ;
 
     @When("User select a random category from {string}, {string}, {string}")
     public void userSelectARandomCategoryFrom(String category1, String category2, String category3) {
@@ -110,7 +112,7 @@ public class SC_005 {
 
     @And("User select a random sub-category from one of the categories and clicks on it")
     public void userSelectARandomSubCategoryFromOneOfTheCategories() {
-        List<String> subCat = new ArrayList<String>();
+        List<String> subCat = new ArrayList<>();
 
         List<WebElement> searchResults = hover.getSubCategories();
         System.out.println("The size of the ArrayList is: " + searchResults.size());
@@ -132,7 +134,7 @@ public class SC_005 {
         System.out.println("subCat is " +subCat);
         System.out.println("subCat is "+subCat.getClass());
         String[] objects = subCat.toArray(subCat.toArray(new String[0]));
-        System.out.println("objects " + objects );
+        System.out.println("objects " + Arrays.toString(objects));
         System.out.println("0 " + objects[0]);
 //        System.out.println("1 " + objects[1]);
 //        System.out.println("2 " + objects[2]);
@@ -151,6 +153,7 @@ public class SC_005 {
 
         int randomIndexSubCategory =  new Random().nextInt(lines99.length);
         //Hooks.driver.findElement(By.linkText(lines99[randomIndexSubCategory])).click();
+        randomSubCategory = lines99[randomIndexSubCategory] ;
         hover.goToSubCategory((lines99[randomIndexSubCategory])).click();
 
 //        lines11 = lines11.replace("[","");
@@ -190,6 +193,8 @@ public class SC_005 {
 
     @Then("The sub-category title should match the chosen sub-category")
     public void theSubCategoryTitleShouldMatchTheChosenSubCategory() {
-
+        System.out.println(hover.getTextOfPageTittle().getText().toLowerCase().trim());
+        System.out.println(randomSubCategory);
+        Assert.assertTrue(hover.getTextOfPageTittle().getText().toLowerCase().trim().contains(randomSubCategory.toLowerCase().trim()));
     }
 }
