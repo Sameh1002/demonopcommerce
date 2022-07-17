@@ -34,13 +34,12 @@ public class SC_004 {
     @And("Count number of search results")
     public void countNumberOfSearches() {
         List<WebElement> searchResults = search.searchResults();
-        System.out.println("Number of search results: " + searchResults.size());
     }
 
     @And("Verify each result contains the search term {}")
     public void verifyEachResultContainsTheSearchTerm(String searchTerm) {
         List<WebElement> searchResultsList = search.searchResults();
-        for ( WebElement result : searchResultsList ) {
+        for (WebElement result : searchResultsList) {
             Assert.assertTrue(result.getText().toLowerCase().contains(searchTerm.toLowerCase()));
         }
     }
@@ -52,10 +51,6 @@ public class SC_004 {
 
     @And("Verify the product page contains the SKU {}")
     public void verifyTheProductPageContainsTheSKUSearchTerm(String searchResult) {
-        System.out.println(searchResult);
-        System.out.println(search.sKUProductPage().getText() );
-//        Assert.assertEquals(searchResult,search.sKUProductPage().getText() );
         Assert.assertTrue(search.sKUProductPage().getText().contains(searchResult));
-
     }
 }

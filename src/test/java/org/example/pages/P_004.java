@@ -11,6 +11,7 @@ public class P_004 {
     public WebElement goToSearch() {
         return Hooks.driver.findElement(By.id("small-searchterms"));
     }
+
     public WebElement searchButton() {
         return Hooks.driver.findElement(By.cssSelector(".search-box-button"));
     }
