@@ -8,7 +8,7 @@ public class P_006 {
 
 
     public WebElement getImage(int slideNumber) {
-        return Hooks.driver.findElement(By.cssSelector(String.format(".nivo-imageLink:nth-child(%d)", slideNumber)) );
+        return Hooks.driver.findElement(By.cssSelector(String.format(".nivo-imageLink:nth-child(%d)", slideNumber)));
     }
 
     public String getExpectedURL() {

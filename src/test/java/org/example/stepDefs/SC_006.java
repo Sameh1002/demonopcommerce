@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class SC_006 {
 
-    P_006 slider =new P_006();
+    P_006 slider = new P_006();
 
     @When("User click on {}")
     public void userClickOnSlider(int slideNumber) {
