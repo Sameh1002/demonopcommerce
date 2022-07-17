@@ -9,6 +9,7 @@ public class P_007 {
     public WebElement goToFollow(String siteName) {
         return Hooks.driver.findElement(By.className(siteName));
     }
+
     public String url() {
         return Hooks.driver.getCurrentUrl();
     }

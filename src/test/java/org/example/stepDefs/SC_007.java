@@ -12,11 +12,11 @@ import java.util.ArrayList;
 public class SC_007 {
 
     P_007 follow = new P_007();
+
     @When("User clicks on {} link")
     public void userClicksOnSiteNameLink(String siteName) {
         follow.goToFollow(siteName).click();
     }
-
 
 
     @Then("{} is opened in new tab")
