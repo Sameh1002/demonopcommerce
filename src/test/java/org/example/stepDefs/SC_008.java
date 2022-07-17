@@ -6,8 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P_008;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -38,39 +36,20 @@ public class SC_008 {
 
     }
 
-//    @When("User waits after adding the item to his wishlist")
-//    public void userWaitsAfterAddingTheItemToHisWishlist() throws InterruptedException {
-//       // WebDriverWait wait = new WebDriverWait((Hooks.driver,Duration.ofSeconds(30)).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".content")));
-//       // WebElement firstResult = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10)) .until(ExpectedConditions.elementToBeClickable(By.xpath("//a/h3")));
-////        System.out.println("11");
-////        Thread.sleep(1);
-////        WebDriverWait wait = new WebDriverWait(Hooks.driver,Duration.ofSeconds(1));
-////        System.out.println("15");
-////        System.out.println(Hooks.driver.findElement(By.cssSelector(".success")).getText());
-////        System.out.println(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".success")));
-////        System.out.println(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".success")).getClass());
-//
-//
-//        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".success")));
-//        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".success")));
-//
-//
-//        //System.out.println(Hooks.driver.findElement(By.cssSelector(".success")).getText());
-//        System.out.println("12");
-//
-//        //Thread.sleep(10000);
-//        //System.out.println(Hooks.driver.findElement(By.cssSelector(".success")).getText());
-//        System.out.println("13");
-//        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".bar-notification.success")));
-//
-//
-//    }
+    @When("User waits after adding the item to his wishlist")
+    public void userWaitsAfterAddingTheItemToHisWishlist()  {
+
+        WebDriverWait wait = new WebDriverWait(Hooks.driver,Duration.ofSeconds(10));
 
 
-        @When("User waits after adding the item to his wishlist")
-        public void userWaitsAfterAddingTheItemToHisWishlist() throws InterruptedException {
-            Thread.sleep(10000);
-        }
+        //waiting for the success message to appear
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("bar-notification")));
+
+        //waiting for the success message to disappear
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("bar-notification")));
+
+    }
+
 
     @And("User navigates to his wishlist")
     public void userNavigatesToHisWishlist() {
