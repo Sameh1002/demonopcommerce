@@ -2,6 +2,7 @@
 @smoke
 Feature: User registration
 
+
   Scenario: User register with a valid email and password
     Given User navigates the registration page
     When User select gender

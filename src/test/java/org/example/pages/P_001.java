@@ -21,7 +21,7 @@ public class P_001 {
         return Hooks.driver.findElement(By.id("LastName"));
     }
 
-        public WebElement selectDay() {
+    public WebElement selectDay() {
         return Hooks.driver.findElement(By.name("DateOfBirthDay"));
     }
 
@@ -32,6 +32,7 @@ public class P_001 {
     public WebElement selectYear() {
         return Hooks.driver.findElement(By.name("DateOfBirthYear"));
     }
+
     public WebElement enterEmail() {
         return Hooks.driver.findElement(By.id("Email"));
     }

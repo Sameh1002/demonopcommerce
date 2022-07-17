@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Fixing the explicit wait">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/SC_008.java" afterDir="false" />
+    <list default="true" id="f1bb468d-d01d-4b4f-9c38-4afa7d7fd7ac" name="Changes" comment="Implement wishlist test wip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,21 +456,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657981810209</updated>
     </task>
-    <task id="LOCAL-00036" summary="SC8 trying to improve the explicit wait">
-      <created>1658000922471</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1658000922471</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Fixing the explicit wait">
-      <created>1658057515266</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1658057515266</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,9 +525,7 @@
     <MESSAGE value="Remove unneeded files" />
     <MESSAGE value="Improve scenario 1" />
     <MESSAGE value="Implement wishlist test wip" />
-    <MESSAGE value="SC8 trying to improve the explicit wait" />
-    <MESSAGE value="Fixing the explicit wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing the explicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement wishlist test wip" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

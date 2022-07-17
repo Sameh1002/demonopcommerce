@@ -9,6 +9,7 @@ import org.testng.asserts.SoftAssert;
 
 import org.example.pages.P_001;
 
+
 public class SC_001 {
     P_001 registration = new P_001();
 
@@ -36,7 +37,6 @@ public class SC_001 {
     @And("user select day of birth {string}")
     public void userSelectDayOfBirth(String dayOfBirth) {
         Select dropdown = new Select(registration.selectDay());
-        System.out.println(dropdown);
         dropdown.selectByVisibleText(dayOfBirth);
     }
 
